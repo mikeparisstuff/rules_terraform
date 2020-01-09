@@ -1,4 +1,4 @@
-load("//terraform/internal:launcher.bzl", "create_launcher", "runfiles_path")
+load("//terraform/internal:launcher.bzl", "create_launcher")
 
 content_publisher_attrs = {}
 

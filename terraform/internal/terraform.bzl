@@ -1,5 +1,5 @@
 load(":providers.bzl", "TerraformModuleInfo", "TerraformPluginInfo", "TerraformWorkspaceInfo", "tf_workspace_files_prefix")
-load("//terraform/internal:terraform_lib.bzl", "create_terraform_renderer", "runfiles_path", "tf_renderer_attrs")
+load("//terraform/internal:terraform_lib.bzl", "create_terraform_renderer", "tf_renderer_attrs")
 
 def _impl(ctx):
     """
