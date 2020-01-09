@@ -5,8 +5,8 @@
 ```python
 git_repository(
     name = "rules_terraform",
-    commit = "c06d18c0117d0bfd348e89758ad7bad79184294f", # 2019-01-23 19:07:09 -0500
-    remote = "https://github.com/ceason/rules_terraform.git",
+    commit = "078593334012401c86f8c7ca063c74ffda7b45e9", # 2012-01-08
+    remote = "https://github.com/mikeparisstuff/rules_terraform.git",
 )
 
 load("@rules_terraform//terraform:dependencies.bzl", "terraform_repositories")
