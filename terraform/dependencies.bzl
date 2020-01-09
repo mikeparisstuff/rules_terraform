@@ -14,12 +14,12 @@ _EXTERNAL_BINARIES = {
     ),
     "terraform-docs": dict(
         url = "https://github.com/segmentio/terraform-docs/releases/download/{version}/terraform-docs-{version}-{platform}-amd64",
-        version = "v0.6.0",
+        version = "v0.7.0",
     ),
     "terraform": dict(
         url = "https://releases.hashicorp.com/terraform/{version}/terraform_{version}_{platform}_amd64.zip",
         path = "terraform",
-        version = "0.11.11",
+        version = "0.12.19",
     ),
     "yq": dict(
         url = "https://github.com/mikefarah/yq/releases/download/{version}/yq_{platform}_amd64",
